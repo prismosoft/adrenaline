@@ -1,7 +1,6 @@
 import mixpanel from 'mixpanel-browser';
 
-// const MIXPANEL_TOKEN = process.env.MIXPANEL_TOKEN 
-const MIXPANEL_TOKEN = "9c022fdde3d5b1415b9ddda36a8b19bd";
+const MIXPANEL_TOKEN = process.env.MIXPANEL_TOKEN 
 mixpanel.init(MIXPANEL_TOKEN, { debug: true, ignore_dnt: true, api_host: "https://api.mixpanel.com" });
 
 // TODO: Setup environments (prod v. dev)
